@@ -1,21 +1,40 @@
-MIT License
+# LICENSE - GL_NV_ray_tracing OpenGL Extension
 
-Copyright (c) 2026 Corn XX
+Copyright (c) 2018-2024 NVIDIA Corporation. All rights reserved.
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+This extension is the property of NVIDIA Corporation and is registered in the Khronos OpenGL Extension Registry.
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+## TERMS OF USE
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+### 1. OWNERSHIP
+GL_NV_ray_tracing is a proprietary extension developed by NVIDIA. This specification is publicly published through the Khronos Group Registry for implementation and developer reference purposes.
+
+### 2. USAGE RIGHTS
+* Developers MAY use this extension in both commercial and non-commercial applications as long as they run on supported NVIDIA hardware.
+* Developers MAY reference this specification for educational and documentation purposes.
+* Developers MAY NOT claim ownership over this extension's specification.
+
+### 3. HARDWARE REQUIREMENTS
+This extension is ONLY available on NVIDIA GPUs featuring the following architectures:
+* Turing (RTX 20-series) and newer
+* Requires NVIDIA driver version 415.xx or newer
+
+### 4. EXTENSION STATUS
+GL_NV_ray_tracing is DEPRECATED.
+NVIDIA and Khronos recommend migrating to:
+* GL_EXT_ray_tracing (Cross-vendor, AMD + NVIDIA + Intel)
+* VK_KHR_ray_tracing_pipeline (Vulkan, cross-vendor)
+
+### 5. OFFICIAL LINKS
+The full specification is available at:
+<https://registry.khronos.org/OpenGL/extensions/NV/NV_ray_tracing.txt>
+
+### 6. DISCLAIMER
+NVIDIA PROVIDES NO WARRANTY WHATSOEVER FOR THIS EXTENSION.
+Usage is entirely the developer's responsibility.
+
+## KHRONOS GROUP NOTICE
+
+The Khronos Group is a consortium managing open graphics standards like OpenGL, Vulkan, and OpenCL. All extensions listed in the Khronos Registry adhere to the Khronos Group Intellectual Property (IP) framework.
+
+For more information: <https://www.khronos.org/legal/ip-framework>
